@@ -14,6 +14,8 @@ h1, p, .btn {
             animation: fadein 2s;
 }
 
+/* Animation*/
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
