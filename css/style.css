@@ -77,11 +77,12 @@ a {
      border-style: none;
 }
 
-@media screen and (orientation: portrait) {
-     body {
-          background: url("../img/small-bg.png");
-          background-size: cover;
-     }
+@media screen
+  and (width: 360px)
+  and (height: 640px) 
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
 }
 
 @media screen and (max-width: 400px) {
