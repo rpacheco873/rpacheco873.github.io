@@ -76,3 +76,9 @@ a {
      margin: 80px 463px;
      border-style: none;
 }
+
+@@media (min-width: 400px) {
+     body {
+          background: url("../img/small-bg.png")
+     }
+}
