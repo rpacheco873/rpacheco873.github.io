@@ -77,8 +77,13 @@ a {
      border-style: none;
 }
 
-@@media (min-width: 400px) {
+@@media screen and (orientation: portrait) {
+
+}
+
+@media screen and (max-width: 400px) {
      body {
-          background: url("../img/small-bg.png")
+          background: url("../img/small-bg.png");
+          background-size: cover;
      }
 }
